@@ -1,0 +1,138 @@
+*
+{
+	margin:0;
+	padding: 0;
+	webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently*/
+                      
+}
+body
+{
+	background-color: #999;
+	width:100%;
+}
+.center_outer
+{
+	top:0px;
+	width:100%;
+	position: fixed;
+	z-index:999;
+}
+.center_inner
+{
+	width:auto;
+	float:right;
+	position: relative;
+	max-width: 85%;
+	right: 50%;
+}
+.center_content
+{
+	width:auto;
+	left:50%;
+	font-size:18px;
+ 	text-transform: capitalize;
+	position: relative;
+}
+#admin_login
+{
+	display:block;
+}
+#emp_login
+{
+	display:none;
+}
+.login_block
+{
+	top:100px;
+	margin:20px;
+	background-color:#990000;
+	padding:10px;
+	padding-bottom:22px;
+	border-radius: 5px;
+	position: relative;
+	box-shadow: inset 0 10px 20px rgba(10,10,10,0.5);
+	text-align: center;
+}
+.login_block td
+{
+	color: white;
+	padding:5px;
+}
+.login_block input[type='text'],input[type='password']
+{
+	padding:3px;
+	border-radius: 5px;
+	height:20px;
+	max-width:120px;
+	width:100%;
+	background:none;
+	border:none;
+	background-color: #999;
+	box-shadow:none;
+	box-shadow: inset 0 10px 20px rgba(10,10,10,0.5),1px 2px rgba(250,250,250,0.3);
+}
+.login_block textarea:focus, input:focus{
+    outline: none;
+}
+.login_block input[name='type']
+{
+	display:none;
+}
+.login_block input[name='submit']
+{
+	float:right;
+	padding:8px;
+	font-weight: bold;
+	color:#990000;
+	background-color:#999;
+	border:none;
+	margin-top:4px;
+	border: 2px solid #990000;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.login_block input:focus
+{
+	box-shadow: inset 0 10px 20px rgba(100,100,100,0.5),1px 2px rgba(250,250,250,0.5);
+}
+#login_to
+{
+	top:70px;
+	position: relative;
+	margin:20px;	
+}
+#login_to div
+{
+	float:left;	
+	background-color: #aaa;
+	padding:5px;
+	border-radius: 2px;
+	box-shadow: inset 0 10px 20px rgba(10,10,10,0.5);
+	cursor: pointer;
+}
+#login_to div[active = 'none']:hover
+{
+	background-color: rgb(10,10,10);
+	box-shadow: inset 0 10px 20px rgba(204,204,204,0.5);
+	color:white;
+	
+}
+#login_to div[active = 'none']
+{
+	background-color: rgb(10,10,10);
+	box-shadow: inset 0 10px 20px rgba(204,204,204,0.5);
+	color:white;
+}
+#login_to #manager
+{
+	border-top-right-radius: 0px;
+}
+#login_to #emp
+{
+	border-top-left-radius: 0px;
+}

@@ -1,0 +1,348 @@
+#icon
+{
+		margin:5px;
+		background: url("..//logo_v1.png") no-repeat top left;
+		background-size: contain;
+}
+.center_outer
+{
+	top:0px;
+	width:100%;
+	position: fixed;
+	z-index:999;
+}
+.center_inner
+{
+	width:auto;
+	float:right;
+	position: relative;
+	max-width: 85%;
+	right: 50%;
+}
+.center_content
+{
+	width:auto;
+	left:50%;
+	font-size:18px;
+ 	text-transform: capitalize;
+	position: relative;
+}
+.yellow_decorator
+{
+	background-color:rgb(255, 219, 77); 
+	padding:2px;
+	padding-top:2;
+	box-shadow: 3px 3px 1px #888888;
+}
+.tile_outer
+{
+	top:120px;
+	width:100%;
+	position: fixed;
+	z-index:999;
+}
+.tile_inner
+{
+	max-width:1000px;
+	width:100%;
+	float:right;
+	position: absolute;
+	right: 50%;
+}
+.tile_content
+{
+	max-width:1000px;
+	width:100%;
+	left:50%;
+	font-size:18px;
+ 	text-transform: capitalize;
+ 	background-color: #333;
+	box-shadow:2px 2px 2px #888888;
+	position: relative;
+	float:left;
+	color:white;
+	z-index:1;
+	padding:5px;
+}
+.tiles
+{
+	height:auto;
+	text-align: center;
+	padding:0px;
+	float:left;
+}
+.tiles:hover
+{
+	cursor:pointer;	
+}
+#menu
+{
+	max-width:200px;
+	width:100%;
+	left:50%;
+	font-size:18px;
+ 	text-transform: capitalize;
+ 	background-color: #333;
+  	box-shadow :inset 5px 5px 10px rgba(0, 0, 0, 0.5),inset -2.5px 0 5px rgba(0, 0, 0, 0.5);
+	position: relative;
+	float:left;
+	color:white;
+	text-align: center;
+	padding:7px;
+	z-index:2;
+}
+table
+{
+	margin-top:8px;	
+}
+td {
+	padding:2px;
+	padding-left:5px;
+	padding-right:5px;
+}
+tr:nth-child(even) td{
+	border-bottom: 1px solid white;
+}
+
+tr:nth-child(odd) td{
+	border-bottom: 1px solid ;
+}
+tr:nth-child(even) {
+	color:white;
+} 
+tr:nth-child(odd) 
+{
+	background: rgba(255,255 ,255 , 0.7);
+	color:#0baedb;
+}
+.icon
+{
+	float:right;
+	top:0px;
+	position: relative;
+}
+img
+{
+	max-width: 71px;
+	width:100%;
+	margin:0px;
+	margin-top:5px;
+}
+.profile
+{
+	max-width:500px;
+	width:50%;
+}
+.profile .info
+{
+	background-color:#0baedb;
+	min-height: 81px;
+	height:auto;
+}
+
+.profile .info:hover
+{
+
+	background-color:#06647E;
+}
+#profile
+{
+	text-align: left;	
+}
+.mail_box
+{
+	max-width:500px;
+	width:50%;
+}
+.mail_box .info
+{
+	background-color:#9ab534;
+}
+.mail_box .info:hover
+{
+	background-color:#647722;
+}
+.create_feed
+{
+	max-width:500px;
+	width:50%;
+}
+.create_feed .info
+{
+	background-color:#e4617d;
+}
+.create_feed .info:hover
+{
+	background-color:#c42145;
+}
+.graph
+{
+	max-width:333.3333px;
+	width:33.3333%;
+}
+.graph .info
+{
+	background-color:#F3A52B;
+}
+.graph .info:hover
+{
+	background-color:#c17b0b;
+}
+.history
+{
+	max-width:333.3333px;
+	width:33.3333%;
+}
+.history .info
+{
+	background-color:#C9C323;
+}
+.history .info:hover
+{
+	background-color:#98941b;
+}
+.logout
+{
+	float: right;
+	max-width:333.3333px;
+	width:33.3333%;
+}
+.logout .info
+{
+	background-color:#f47036;
+}
+.logout .info:hover
+{
+	background-color:#c2410a;
+	text-decoration: underline;
+}
+.info{
+	position: relative;
+	margin:5px;
+	padding:15px;
+}
+@media only screen and (min-width: 1025px) and (max-width: 1140px)
+{
+	.info
+	{
+		margin:4px;
+		padding:12px;
+	}
+	.graph
+	{
+		max-width: 570px;
+		width:50%;
+	}
+	.history
+	{
+		max-width:570px;
+		width:50%;
+	}
+	.mail_box .info
+	{
+		min-height:25px;
+		height:100%;
+	}
+	.create_feed .info
+	{
+		min-height: 25px;
+		height:100%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+	.info
+	{
+		margin:3px;
+		padding:9px;
+	}
+	.profile
+	{
+		max-width:1024px;
+		width:100%;
+	}
+
+	.mail_box
+	{
+		max-width:1024px;
+		width:100%;
+	}
+	.graph
+	{
+		max-width: 512px;
+		width:50%;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	.info
+	{
+		margin:2px;
+		padding:6px;
+	}
+	.profile
+	{
+		max-width:767px;
+		width:100%;
+	}
+
+	.mail_box
+	{
+		max-width:767px;
+		width:100%;
+	}
+	.create_feed
+	{
+		max-width: 383.5px;
+		width:50%;
+	}
+	.graph
+	{
+		max-width: 383.5px;
+		width:50%;
+	}
+	.history
+	{
+		max-width:767px;
+		width:100%;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 479px)
+{
+	.info
+	{
+		margin:1px;
+		padding:3px;
+	}
+	.profile
+	{
+		max-width:479px;
+		width:100%;
+	}
+
+	.mail_box
+	{
+		max-width:479px;
+		width:100%;
+	}
+	.create_feed
+	{
+		max-width:479px;
+		width:100%;
+	}
+	.graph
+	{
+		max-width:479px;
+		width:100%;
+	}
+	.history
+	{
+		max-width:479px;
+		width:100%;
+	}
+	.logout
+	{
+		max-width:479px;
+		width:100%;
+	}
+}
